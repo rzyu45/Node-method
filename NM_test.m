@@ -14,7 +14,7 @@ parameter.lambda=1/0.35;
 %calculation parameter
 T=20*3600;% total calculation time
 opt.t=180;% temporal step size
-N=T/t;% total steps
+N=T/opt.t;% total steps
 
 %variable
 index.pipe=1;
